@@ -20,6 +20,18 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Clonar el archivo __.env.template__ y Renombrar
+a __.env__
+6. Llenar las variables de entorno en el __.env__
+7. Ejecutar la aplicacion en dev: 
+```
+npm run start:dev
+```
+8. Recargar la bd SEED
+```
+Ejecutar solo en desarrollo 
+http://localhost:3000/api/pokemon
+```
 ## Stack
 * mongoDB
 * Nest
